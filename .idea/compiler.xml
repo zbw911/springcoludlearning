@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybiz" />
+        <module name="myConsumer" />
+        <module name="myEureka" />
+        <module name="myProducer" />
+        <module name="myzuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basicmodule" target="1.5" />
+      <module name="bizmodel" target="1.5" />
+      <module name="mybiz" target="1.8" />
+      <module name="mybizConsumer" target="1.8" />
+      <module name="mybizProducer" target="1.8" />
+      <module name="mycloud_starter" target="1.5" />
+      <module name="myConsumer" target="1.8" />
+      <module name="myEureka" target="1.8" />
+      <module name="myProducer" target="1.8" />
+      <module name="myzuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

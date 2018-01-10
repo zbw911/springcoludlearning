@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/basicmodule/myEureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basicmodule/myzuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizmodel/myConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizmodel/myProducer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizmodel/mybizConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bizmodel/mybizProducer" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basicmodule/basicmodule.iml" filepath="$PROJECT_DIR$/basicmodule/basicmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizmodel/bizmodel.iml" filepath="$PROJECT_DIR$/bizmodel/bizmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizmodel/myConsumer/myConsumer.iml" filepath="$PROJECT_DIR$/bizmodel/myConsumer/myConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicmodule/myEureka/myEureka.iml" filepath="$PROJECT_DIR$/basicmodule/myEureka/myEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bizmodel/myProducer/myProducer.iml" filepath="$PROJECT_DIR$/bizmodel/myProducer/myProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycloud_starter.iml" filepath="$PROJECT_DIR$/mycloud_starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicmodule/myzuul/myzuul.iml" filepath="$PROJECT_DIR$/basicmodule/myzuul/myzuul.iml" />
+    </modules>
+  </component>
+</project>
