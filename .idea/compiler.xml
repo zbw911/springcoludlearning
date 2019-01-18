@@ -6,16 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-client-eureka-client" />
+        <module name="config-server" />
+        <module name="config-server-eureka-client" />
+        <module name="eureka-server" />
         <module name="mybiz" />
         <module name="myConsumer" />
         <module name="myEureka" />
         <module name="myProducer" />
         <module name="myzuul" />
+        <module name="serice-feign" />
+        <module name="service-hi" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basicmodule" target="1.5" />
       <module name="bizmodel" target="1.5" />
+      <module name="config-client" target="1.8" />
+      <module name="config-client-eureka-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-server-eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="first_demo" target="1.8" />
       <module name="mybiz" target="1.8" />
       <module name="mybizConsumer" target="1.8" />
       <module name="mybizProducer" target="1.8" />
@@ -24,6 +39,24 @@
       <module name="myEureka" target="1.8" />
       <module name="myProducer" target="1.8" />
       <module name="myzuul" target="1.8" />
+      <module name="serice-feign" target="1.8" />
+      <module name="service-hi" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-client-eureka-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="config-server-eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="first_demo" options="-parameters" />
+      <module name="serice-feign" options="-parameters" />
+      <module name="service-hi" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
+    </option>
   </component>
 </project>
