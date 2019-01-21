@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aaaaaaaaaaaa" />
+        <module name="admin-client" />
+        <module name="admin-client2" />
+        <module name="admin-server" />
         <module name="config-client" />
         <module name="config-client-eureka-client" />
         <module name="config-server" />
@@ -28,6 +31,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aaaaaaaaaaaa" target="1.8" />
+      <module name="admin-client" target="1.8" />
+      <module name="admin-client2" target="1.8" />
+      <module name="admin-server" target="1.8" />
       <module name="basicmodule" target="1.5" />
       <module name="bizmodel" target="1.5" />
       <module name="config-client" target="1.8" />
@@ -56,6 +62,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aaaaaaaaaaaa" options="-parameters" />
+      <module name="admin-client" options="-parameters" />
+      <module name="admin-client2" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-client-eureka-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
