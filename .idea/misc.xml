@@ -13,7 +13,6 @@
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-client-eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/aaaaaaaaaaaa/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/service-miya/pom.xml" />

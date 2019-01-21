@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aaaaaaaaaaaa/aaaaaaaaaaaa.iml" filepath="$PROJECT_DIR$/aaaaaaaaaaaa/aaaaaaaaaaaa.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-client/admin-client.iml" filepath="$PROJECT_DIR$/admin-client/admin-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-client2/admin-client2.iml" filepath="$PROJECT_DIR$/admin-client2/admin-client2.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
