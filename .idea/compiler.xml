@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aaaaaaaaaaaa" />
         <module name="config-client" />
         <module name="config-client-eureka-client" />
         <module name="config-server" />
@@ -18,11 +19,15 @@
         <module name="myzuul" />
         <module name="serice-feign" />
         <module name="service-hi" />
+        <module name="service-hi-zipkin" />
+        <module name="service-miya" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
+        <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aaaaaaaaaaaa" target="1.8" />
       <module name="basicmodule" target="1.5" />
       <module name="bizmodel" target="1.5" />
       <module name="config-client" target="1.8" />
@@ -41,12 +46,16 @@
       <module name="myzuul" target="1.8" />
       <module name="serice-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
+      <module name="service-hi-zipkin" target="1.8" />
+      <module name="service-miya" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-zuul" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aaaaaaaaaaaa" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-client-eureka-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
@@ -55,8 +64,11 @@
       <module name="first_demo" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
       <module name="service-hi" options="-parameters" />
+      <module name="service-hi-zipkin" options="-parameters" />
+      <module name="service-miya" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>
