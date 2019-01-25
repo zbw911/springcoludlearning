@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config-client
+
+
+  cloud:
+    config:
+      profile: env-aaaa
+      label: master
+#      uri: http://localhost:12000/scca-config-server
+
+      discovery:
+        enabled: true
+        serviceId: scca-all-in-one-server
+
+
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
