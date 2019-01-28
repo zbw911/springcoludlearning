@@ -25,7 +25,7 @@ public class AdminClient2Application {
 
     @RequestMapping(value = "/hi")
     public String hi() {
-        return foo;
+        return "client2-->" + foo;
     }
 }
 
